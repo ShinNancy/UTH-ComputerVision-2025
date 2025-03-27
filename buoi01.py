@@ -1,6 +1,5 @@
 # import libraries
 import os
-import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -98,7 +97,7 @@ plt.show()
 # Convert BGR to HSV (Hue, Saturation, Value)
 img_hsv=cv2.imread('assets_data/New_Zealand_Lake.jpg', cv2.COLOR_BGR2HSV)
 
-# Split the image into the B,G,R components
+# Split the image into the H,S,V components
 h,s,v = cv2.split(img_hsv)
 
 # Show the channels
